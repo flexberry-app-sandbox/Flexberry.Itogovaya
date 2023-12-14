@@ -74,9 +74,9 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     датаНачала: attr('Дата начала', { index: 1 }),
     датаОкончания: attr('Дата окончания', { index: 2 }),
-    организации: belongsTo('i-i-s-itogovaya-организации', 'Организация', {
-      организация: attr('Организация', { index: 3, hidden: true })
-    }, { index: 4, hidden: true }),
+    организации: belongsTo('i-i-s-itogovaya-организации', 'Организации', {
+      организация: attr('Организация', { index: 4, hidden: true })
+    }, { index: 3, displayMemberPath: 'организация' }),
     склады: belongsTo('i-i-s-itogovaya-склады', 'Склады', {
       склад: attr('Склад', { index: 6, hidden: true })
     }, { index: 5, displayMemberPath: 'склад' }),

@@ -57,6 +57,24 @@
     {{flexberry-validationmessage error=(v-get validationModel "датаОкончания" "message")}}
   </div>
   <div class="field">
+    <label>{{t "forms.i-i-s-itogovaya-заказ-пост-e.организации-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.организации
+      displayAttributeName="организация"
+      autocomplete=true
+      relationName="организации"
+      projection="ОрганизацииL"
+      title=(t "forms.i-i-s-itogovaya-заказ-пост-e.организации-caption")
+      readonly=readonly
+      componentName="организацииLookup"
+      class=(if (v-get validationModel "организации" "isInvalid") "error")
+      data-test-i-i-s-itogovaya-заказ-пост-e-организации=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "организации" "message")}}
+  </div>
+  <div class="field">
     <label>{{t "forms.i-i-s-itogovaya-заказ-пост-e.склады-caption"}}</label>
     {{flexberry-lookup
       choose="showLookupDialog"
