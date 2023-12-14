@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISItogovayaОрганизации",
+  "modelName": "i-i-s-itogovaya-организации",
+  "className": "Организации",
+  "nameSpace": "IIS.Itogovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "организация",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОрганизацииE",
+      "modelName": "i-i-s-itogovaya-организации",
+      "attrs": [
+        {
+          "name": "организация",
+          "caption": "Организация",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОрганизацииL",
+      "modelName": "i-i-s-itogovaya-организации",
+      "attrs": [
+        {
+          "name": "организация",
+          "caption": "Организация",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

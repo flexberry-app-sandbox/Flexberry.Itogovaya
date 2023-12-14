@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ЕдиницыИзмер",
+      "projection": "ЕдиницыИзмерL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Контрагенты",
+      "projection": "КонтрагентыL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Номенклатура",
+  "name": "IISItogovayaНоменклатураE",
+  "className": "НоменклатураE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-номенклатура",
+      "modelProjection": "НоменклатураE"
+    }
+  ]
+}

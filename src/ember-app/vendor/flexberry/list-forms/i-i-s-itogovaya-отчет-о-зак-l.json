@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-отчет-о-зак-e",
+  "editForm": "i-i-s-itogovaya-отчет-о-зак-e",
+  "external": false,
+  "caption": "Отчет о зак",
+  "name": "IISItogovayaОтчетОЗакL",
+  "className": "ОтчетОЗакL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-отчет-о-зак",
+      "modelProjection": "ОтчетОЗакL"
+    }
+  ]
+}

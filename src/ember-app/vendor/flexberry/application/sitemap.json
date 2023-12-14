@@ -1,0 +1,95 @@
+﻿{
+  "applicationCaption": "Avtomatizaciya_zakupok_gotovaya",
+  "applicationTitle": "Avtomatizaciya_zakupok_gotovaya",
+  "items": [
+    {
+      "link": null,
+      "menuName": "автоматизация-закупок",
+      "caption": "Автоматизация закупок",
+      "title": "Автоматизация закупок",
+      "children": [
+        {
+          "link": null,
+          "menuName": "справочник",
+          "caption": "Справочник",
+          "title": "Справочник",
+          "children": [
+            {
+              "link": "i-i-s-itogovaya-номенклатура-l",
+              "menuName": null,
+              "caption": "Номенклатура",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-организации-l",
+              "menuName": null,
+              "caption": "Организации",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-контрагенты-l",
+              "menuName": null,
+              "caption": "Контрагенты",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-склады-l",
+              "menuName": null,
+              "caption": "Склады",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-единицы-измер-l",
+              "menuName": null,
+              "caption": "Единицы измерения",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "документы",
+          "caption": "Документы",
+          "title": "Документы",
+          "children": [
+            {
+              "link": "i-i-s-itogovaya-заказ-пост-l",
+              "menuName": null,
+              "caption": "Заказ поставщику",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-план-закупок-l",
+              "menuName": null,
+              "caption": "План закупок",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "отчеты",
+          "caption": "Отчеты",
+          "title": "Отчеты",
+          "children": [
+            {
+              "link": "i-i-s-itogovaya-отчет-о-зак-l",
+              "menuName": null,
+              "caption": "Отчет о закупках",
+              "title": "",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

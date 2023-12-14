@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-склады-e",
+  "editForm": "i-i-s-itogovaya-склады-e",
+  "external": false,
+  "caption": "Склады",
+  "name": "IISItogovayaСкладыL",
+  "className": "СкладыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-склады",
+      "modelProjection": "СкладыL"
+    }
+  ]
+}

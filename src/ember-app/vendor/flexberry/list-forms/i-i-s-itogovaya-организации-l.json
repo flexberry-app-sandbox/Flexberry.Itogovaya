@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-организации-e",
+  "editForm": "i-i-s-itogovaya-организации-e",
+  "external": false,
+  "caption": "Организации",
+  "name": "IISItogovayaОрганизацииL",
+  "className": "ОрганизацииL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-организации",
+      "modelProjection": "ОрганизацииL"
+    }
+  ]
+}

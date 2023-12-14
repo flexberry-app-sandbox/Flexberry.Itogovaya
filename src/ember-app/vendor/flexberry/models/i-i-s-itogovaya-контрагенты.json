@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISItogovayaКонтрагенты",
+  "modelName": "i-i-s-itogovaya-контрагенты",
+  "className": "Контрагенты",
+  "nameSpace": "IIS.Itogovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "контрагент",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонтрагентыE",
+      "modelName": "i-i-s-itogovaya-контрагенты",
+      "attrs": [
+        {
+          "name": "контрагент",
+          "caption": "Контрагент",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КонтрагентыL",
+      "modelName": "i-i-s-itogovaya-контрагенты",
+      "attrs": [
+        {
+          "name": "контрагент",
+          "caption": "Контрагент",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

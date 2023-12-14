@@ -1,0 +1,155 @@
+﻿{
+  "name": "IISItogovayaНоменклатура",
+  "modelName": "i-i-s-itogovaya-номенклатура",
+  "className": "Номенклатура",
+  "nameSpace": "IIS.Itogovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номенклатура",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "единицыИзмер",
+      "relatedTo": "i-i-s-itogovaya-единицы-измер",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "контрагенты",
+      "relatedTo": "i-i-s-itogovaya-контрагенты",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "НоменклатураE",
+      "modelName": "i-i-s-itogovaya-номенклатура",
+      "attrs": [
+        {
+          "name": "номенклатура",
+          "caption": "Номенклатура",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ЕдиницаИзмер",
+          "lookupValueField": "единицаИзмер",
+          "relationName": "ЕдиницыИзмер",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "единицаИзмер",
+              "caption": "Единица измерения",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Единицы измерения",
+          "name": "единицыИзмер",
+          "relatedTo": "i-i-s-itogovaya-единицы-измер",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Контрагент",
+          "lookupValueField": "контрагент",
+          "relationName": "Контрагенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "контрагент",
+              "caption": "Контрагент",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Контрагенты",
+          "name": "контрагенты",
+          "relatedTo": "i-i-s-itogovaya-контрагенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "НоменклатураL",
+      "modelName": "i-i-s-itogovaya-номенклатура",
+      "attrs": [
+        {
+          "name": "номенклатура",
+          "caption": "Номенклатура",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ЕдиницыИзмер",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "единицаИзмер",
+              "caption": "Единица измер",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Единица измер",
+          "name": "единицыИзмер",
+          "relatedTo": "i-i-s-itogovaya-единицы-измер",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Контрагенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "контрагент",
+              "caption": "Контрагент",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Контрагент",
+          "name": "контрагенты",
+          "relatedTo": "i-i-s-itogovaya-контрагенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

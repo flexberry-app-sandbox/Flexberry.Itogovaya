@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Склады",
+  "name": "IISItogovayaСкладыE",
+  "className": "СкладыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-склады",
+      "modelProjection": "СкладыE"
+    }
+  ]
+}

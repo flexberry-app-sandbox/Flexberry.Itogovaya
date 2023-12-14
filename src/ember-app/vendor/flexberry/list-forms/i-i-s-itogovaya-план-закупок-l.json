@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-план-закупок-e",
+  "editForm": "i-i-s-itogovaya-план-закупок-e",
+  "external": false,
+  "caption": "План закупок",
+  "name": "IISItogovayaПланЗакупокL",
+  "className": "ПланЗакупокL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-план-закупок",
+      "modelProjection": "ПланЗакупокL"
+    }
+  ]
+}
