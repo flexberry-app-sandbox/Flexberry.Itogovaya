@@ -27,7 +27,7 @@ namespace IIS.Itogovaya
 
     // *** End programmer edit section *** (ЗаказПост CustomAttributes)
     [AutoAltered()]
-    [Caption("Заказ пост")]
+    [Caption("Заказ поставщику")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЗаказПостE", new string[] {
             "Номер as \'Номер\'",

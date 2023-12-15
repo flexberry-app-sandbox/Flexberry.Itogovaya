@@ -26,30 +26,29 @@ export default Controller.extend({
               link: 'i-i-s-itogovaya-номенклатура-l',
               caption: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-номенклатура-l.caption'),
               title: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-номенклатура-l.title'),
+              icon: 'book',
               children: null
             }, {
               link: 'i-i-s-itogovaya-организации-l',
               caption: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-организации-l.caption'),
               title: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-организации-l.title'),
-              icon: 'chart bar',
+              icon: 'edit',
               children: null
             }, {
               link: 'i-i-s-itogovaya-контрагенты-l',
               caption: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-контрагенты-l.caption'),
               title: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-контрагенты-l.title'),
-              icon: 'folder open',
               children: null
             }, {
               link: 'i-i-s-itogovaya-склады-l',
               caption: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-склады-l.caption'),
               title: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-склады-l.title'),
-              icon: 'list',
               children: null
             }, {
               link: 'i-i-s-itogovaya-единицы-измер-l',
               caption: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-единицы-измер-l.caption'),
               title: i18n.t('forms.application.sitemap.автоматизация-закупок.справочник.i-i-s-itogovaya-единицы-измер-l.title'),
-              icon: 'briefcase',
+              icon: 'chart line',
               children: null
             }]
           }, {
@@ -60,13 +59,13 @@ export default Controller.extend({
               link: 'i-i-s-itogovaya-заказ-пост-l',
               caption: i18n.t('forms.application.sitemap.автоматизация-закупок.документы.i-i-s-itogovaya-заказ-пост-l.caption'),
               title: i18n.t('forms.application.sitemap.автоматизация-закупок.документы.i-i-s-itogovaya-заказ-пост-l.title'),
-              icon: 'address card',
+              icon: 'phone',
               children: null
             }, {
               link: 'i-i-s-itogovaya-план-закупок-l',
               caption: i18n.t('forms.application.sitemap.автоматизация-закупок.документы.i-i-s-itogovaya-план-закупок-l.caption'),
               title: i18n.t('forms.application.sitemap.автоматизация-закупок.документы.i-i-s-itogovaya-план-закупок-l.title'),
-              icon: 'chart line',
+              icon: 'suitcase',
               children: null
             }]
           }, {
@@ -77,7 +76,7 @@ export default Controller.extend({
               link: 'i-i-s-itogovaya-отчет-о-зак-l',
               caption: i18n.t('forms.application.sitemap.автоматизация-закупок.отчеты.i-i-s-itogovaya-отчет-о-зак-l.caption'),
               title: i18n.t('forms.application.sitemap.автоматизация-закупок.отчеты.i-i-s-itogovaya-отчет-о-зак-l.title'),
-              icon: 'phone',
+              icon: 'tags',
               children: null
             }]
           }]

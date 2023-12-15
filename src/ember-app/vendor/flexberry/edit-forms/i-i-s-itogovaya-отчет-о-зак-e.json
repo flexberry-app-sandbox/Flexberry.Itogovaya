@@ -34,7 +34,7 @@
     }
   ],
   "external": false,
-  "caption": "Отчет о зак",
+  "caption": "Отчет о заказах",
   "name": "IISItogovayaОтчетОЗакE",
   "className": "ОтчетОЗакE",
   "attrs": [],

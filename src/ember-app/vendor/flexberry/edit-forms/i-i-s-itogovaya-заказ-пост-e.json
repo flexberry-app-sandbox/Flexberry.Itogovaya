@@ -34,7 +34,7 @@
     }
   ],
   "external": false,
-  "caption": "Заказ пост",
+  "caption": "Заказ поставщиках",
   "name": "IISItogovayaЗаказПостE",
   "className": "ЗаказПостE",
   "attrs": [],
